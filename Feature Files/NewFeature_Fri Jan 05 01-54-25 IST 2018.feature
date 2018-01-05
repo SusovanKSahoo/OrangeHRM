@@ -1,0 +1,21 @@
+Feature: To create automation test suite
+
+ Scenario: To check OrangeHRM_Regression
+Given open the login page "url"
+When enter the username "username" "Admin"
+When enter the password "password" "admin"
+When click on login button "loginButton"
+When wait for an element "adminModule"
+When mouse over to the element "adminModule"
+When mouse over to the element "userManagement"
+When wait for an element "users"
+When click on the element "users"
+When click on the element "userAdd"
+When wait for an element "userRole"
+When select an element from dropdown "userRole" "Admin"
+When enter a value "employeeName" "Hare Alt"
+When enter a value "usernameNew" "har71"
+When select an element from dropdown "userStatus" "Enabled"
+When enter a value "passwordNew" "har71iNhvn"
+When enter a value "confirmPassword" "har71iNhvn"
+When click on the element "saveButton"
